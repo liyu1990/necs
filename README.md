@@ -1,1 +1,1 @@
-# (NECS)Learning-Network-Embedding-with-Network-Structural-Information
+# (NECS)Learning Network Embedding with Network Structural Information
