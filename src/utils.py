@@ -11,7 +11,7 @@ def cosine_similarity(G):
     sets = {node: set(G.neighbors(node)) for node in nx.nodes(G)}
     laps = np.array(
             [[float(len(sets[node_1].intersection(sets[node_2]))) / (float(degrees[node_1] * degrees[node_2]) ** 0.5) 
-                if node_1 != node_2 else 0.0 for node_1 in nx.nodes(G)] 
+                if node_1 != node_2 else 1.0 for node_1 in nx.nodes(G)] # 0.0
                 for node_2 in tqdm(nx.nodes(G))], 
             dtype=np.float64)
     return laps
