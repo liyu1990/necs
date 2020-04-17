@@ -1,5 +1,5 @@
-### Learning Network Embedding with Community Structural Information(necs)
-Implementation of Learning Network Embedding with Community Structural Information(necs), ijcai2019.
+### Learning Network Embedding with Community Structural Information
+Implementation of Learning Network Embedding with Community Structural Information, ijcai2019.
 
 ##### Fix some errors in the raw paper:
 > Computation cost for U, V, W and H:
